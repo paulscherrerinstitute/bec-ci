@@ -26,7 +26,7 @@ ingress:
   tls:
     - hosts:
       - "{{ .Values.host }}"
-      secretName: "scilog-certificate"
+      secretName: "bec-certificate"
 
 volumes:
   - name: secrets-volume
