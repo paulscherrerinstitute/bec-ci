@@ -5,7 +5,7 @@ config: |
     "lbBaseURL": "https://bec.development.psi.ch/api/v1/",
     "help": "https://gitlab.psi.ch/bec/scibec/",
     "oAuth2Endpoint": {
-        "authURL": "auth/keycloak",
+        "authURL": "auth",
         "displayText": "PSI account",
         "toolTipText": "...like any normal user, including e-accounts, connected to your identity management system. Note that you may be redirected to an identity provider"
     }
