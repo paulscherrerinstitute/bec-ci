@@ -80,3 +80,4 @@ probeChecks:
   periodSeconds: 20
   timeoutSeconds: 5
   failureThreshold: 5 
+  initialDelaySeconds: 10
